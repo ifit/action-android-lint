@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM public.ecr.aws/docker/library/alpine:3.11
 
 RUN apk --no-cache --update add git python3 \
     && rm -rf /var/cache/apk/*
